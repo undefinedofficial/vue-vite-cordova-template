@@ -1,0 +1,15 @@
+{
+  "electron": {
+    "windows": {
+      "package": ["nsis"],
+      "arch": ["x64"]
+    },
+    "linux": {
+      "package": ["deb", "tar.gz"],
+      "arch": ["x64"]
+    }
+  },
+  "android": {
+    "package": ["apk"]
+  }
+}

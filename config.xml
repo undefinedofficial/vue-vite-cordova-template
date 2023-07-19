@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="undefined.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>name app</name>
+    <description>description </description>
+    <author email="https://github.com/undefinedofficial" href="https://github.com/undefinedofficial">
+        @undefined_official
+    </author>
+    <content src="index.html" />
+    <!-- <allow-intent href="http://*/*" /> -->
+    <!-- <allow-intent href="https://*/*" /> -->
+    <!-- <icon src="icon.png" /> -->
+
+    <!-- <splash src="screens/port-hdpi.png" density="hdpi"/> -->
+    <!-- <splash src="screens/port-ldpi.png" density="ldpi"/> -->
+    <!-- <splash src="screens/port-mdpi.png" density="mdpi"/> -->
+    <!-- <splash src="screens/port-xhdpi.png" density="xhdpi"/> -->
+    <!-- <splash src="screens/port-xxhdpi.png" density="xxhdpi"/> -->
+
+    <!-- Landscape -->
+    <!-- <splash src="screens/land-hdpi.png" density="land-hdpi" /> -->
+    <!-- <splash src="screens/land-ldpi.png" density="land-ldpi" /> -->
+    <!-- <splash src="screens/land-mdpi.png" density="land-mdpi" /> -->
+    <!-- <splash src="screens/land-xhdpi.png" density="land-xhdpi" /> -->
+    <!-- <splash src="screens/land-xxhdpi.png" density="land-xxhdpi" /> -->
+    <!-- <splash src="screens/land-xxxhdpi.png" density="land-xxxhdpi" /> -->
+
+    <!-- Portrait -->
+    <!-- <splash src="screens/port-hdpi.png" density="port-hdpi" /> -->
+    <!-- <splash src="screens/port-ldpi.png" density="port-ldpi" /> -->
+    <!-- <splash src="screens/port-mdpi.png" density="port-mdpi" /> -->
+    <!-- <splash src="screens/port-xhdpi.png" density="port-xhdpi" /> -->
+    <!-- <splash src="screens/port-xxhdpi.png" density="port-xxhdpi" /> -->
+    <!-- <splash src="screens/port-xxxhdpi.png" density="port-xxxhdpi" /> -->
+  
+    <!-- Dark Mode -->
+    <!-- <splash src="screens/land-night-hdpi.png" density="land-night-hdpi" /> -->
+    <!-- <splash src="screens/land-night-ldpi.png" density="land-night-ldpi" /> -->
+    <!-- <splash src="screens/land-night-mdpi.png" density="land-night-mdpi" /> -->
+    <!-- <splash src="screens/land-night-xhdpi.png" density="land-night-xhdpi" /> -->
+    <!-- <splash src="screens/land-night-xxhdpi.png" density="land-night-xxhdpi" /> -->
+    <!-- <splash src="screens/land-night-xxxhdpi.png" density="land-night-xxxhdpi" /> -->
+
+    <!-- <splash src="screens/port-night-hdpi.png" density="port-night-hdpi" /> -->
+    <!-- <splash src="screens/port-night-ldpi.png" density="port-night-ldpi" /> -->
+    <!-- <splash src="screens/port-night-mdpi.png" density="port-night-mdpi" /> -->
+    <!-- <splash src="screens/port-night-xhdpi.png" density="port-night-xhdpi" /> -->
+    <!-- <splash src="screens/port-night-xxhdpi.png" density="port-night-xxhdpi" /> -->
+    <!-- <splash src="screens/port-night-xxxhdpi.png" density="port-night-xxxhdpi" /> -->
+
+
+    <preference name="SplashScreenDelay" value="2000" />
+
+    <platform name="electron">
+        <preference name="ElectronSettingsFilePath" value="settings.json" />
+    </platform>
+</widget>

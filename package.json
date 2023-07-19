@@ -1,0 +1,33 @@
+{
+  "name": "chesswood-game",
+  "displayName": "Chesswood game",
+  "version": "1.2.0",
+  "description": "Chesswood chess game application",
+  "main": "index.js",
+  "scripts": {
+    "dev-electron": "cordova serve electron",
+    "dev-android": "cordova serve android",
+    "run-electron": "cordova run electron --nobuild",
+    "run-android": "cordova run android",
+    "run-android-virtual": "cordova run android --emulator",
+    "build-electron": "cordova build electron --release",
+    "build-android": "cordova build android",
+    "add-electron": "cordova platform add electron",
+    "add-android": "cordova platform add android"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "@undefinedofficial",
+  "license": "",
+  "devDependencies": {
+    "cordova-android": "^12.0.0",
+    "cordova-electron": "^3.1.0"
+  },
+  "cordova": {
+    "platforms": [
+      "electron",
+      "android"
+    ]
+  }
+}
